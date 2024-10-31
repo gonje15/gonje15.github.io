@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising desks</title>
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo">Gonje's Desks</div>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+          
+          <li>
+            <label for="btn-1" class="show">Features +</label>
+            <a href="index.html">Home</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li><a href="#spicaloffers">Our best offers</a></li>
+              <li><a href="#h3HB">Health benefits</a></li>
+            </ul>
+          </li>
+          <li><a href="Contact.html">contact us</a></li>
+          <li>
+            <label for="btn-2" class="show">Services +</label>
+            <a href="Health benefits.html">Health benefits</a>
+          </li>
+          <li><a href="RisingDesks.Html">Rising desks</a></li>
+          <li><a href="Basket.html">Basket</a></li>
+        </ul>
+      </nav>
+        <!-- products -->
+      <div class="section">
+        <h2 class="cen">Popular Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="img/Desk1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Electric standing desk</h3>
+                    <p>Name: Adjustable height, 40 x 24 inch stand up sit stand desk with spliced Board</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="price">
+                        <p>Price: MWK 400,000.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Adjustable height, 40 x 24 inch stand up sit stand desk with spliced Board', 400500)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3>Rising desk</h3>
+                    <p>Name: 32 Inch Desk converter, Height Adjustable sit to stand riser</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="price">
+                        <p>Price: MWK 500,350.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('32 Inch Desk converter, Height Adjustable sit to stand riser', 500350)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk3.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3>Work space</h3>
+                    <p>Name: Lavoro advance corner Trile</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 420,600.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Lavoro advance corner Trile', 420600)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk4.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>SONGMICS</h3>
+                    <p>Name: Adjustable Desk rustic brown</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 410,970.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Adjustable Desk rustic brown', 410970)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk5.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>V- Shape Table</h3>
+                    <p>Name: Corner Desk frame V-shape table</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Pice: MWK 400,460.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Corner Desk frame V-shape table', 400460)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk6.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>White stand up desk</h3>
+                    <p>Name: Desk Frame for modern contemporary</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 360,560.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Desk Frame for modern contemporary', 360560)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk7.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>Marsail</h3>
+                    <p>Name: Home Office Table with 3 memory preset</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 390,560.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Home Office Table with 3 memory preset', 390560)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk8.jpg" alt="Product 5">
+                <div class="product-info">
+                    <h3>Rising desk</h3>
+                    <p>Name: Home set up desk</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 420,780.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Home set up desk', 420780)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured products  -->
+    <div class="section">
+        <h2 class="cen">Featured Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="img/Desk9.jpg" alt="Product 6">
+                <div class="product-info">
+                    <h3>ERGear</h3>
+                    <p>Name: Electric standing desk</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 370,450.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Electric standing desk', 370450)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk10.jpg" alt="Product 10">
+                <div class="product-info">
+                    <h3>VIVO platerforme<h3>
+                    <p>Name: Grey desk</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="price">
+                        <p>Price: MWK 400,570.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Grey desk', 400570)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk11.jpg" alt="Product 8">
+                <div class="product-info">
+                    <h3>Wooden Decor</h3>
+                    <p>Name: HULALA HOME Desk</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="price">
+                        <p>Price: MWK 360,800.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('HULALA HOME Desk', 360800)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk12.jpg" alt="Product 9">
+                <div class="product-info">
+                    <h3>Portable desk</h3>
+                    <p>Name: Working desk</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 390,760.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Working desk', 390760)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk13.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>DLONGONE</h3>
+                    <p>Name: Desk with LED lights</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 430,670.00</p>
+                    </div>
+                    <button onclick="addToCart('Desk with LED lights', 430670)" class="Cartbtn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk14.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>Tangkula</h3>
+                    <p>Name: Electric memory height settings</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 450,670.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Electric memory height settings', 450670)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk15.jpg" alt="Product 4">
+                <div class="product-info">
+                    <h3>SIHOO</h3>
+                    <p>Name: Standing electric desk</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 420,780.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('Standing electric desk', 420780)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="img/Desk3.jpg" alt="Product 10">
+                <div class="product-info">
+                    <h3>FEZIBO</h3>
+                    <p>Name: FEZIBO Drawer with ambient light</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="price">
+                        <p>Price: MWK 350,670.00</p>
+                    </div>
+                    <button class="Cartbtn" onclick="addToCart('FEZIBO Drawer with ambient light', 350670)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Gonje's Desk</h3>
+            <p> Malawi,Southern Region, Blantyre</p>
+            <p>+265-882-75-7507</p>
+            <p>+265-998-82-2610</p>
+        </div>
+  
+        <div class="footer-column">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="Health benefits.html">Health Benefits</a></li>
+                <li><a href="RisingDesks.Html">Rising desks</a></li>
+                <li><a href="Basket.html">Basket</a></li>
+  
+            </ul>
+        </div>
+  
+        <div class="footer-column">
+            <h3>More</h3>
+            <ul>
+                <li><a href="Contact.html">Contact Us</a></li>
+            
+            </ul>
+        </div>
+  
+      
+        <div class="footer-column">
+            <h3>Social Media Links</h3>
+            <ul class="social-icons">
+                <li><a href="https://www.bing.com/ck/a?!&&p=bc1e457ea9fa312bJmltdHM9MTcyNjc5MDQwMCZpZ3VpZD0xYjNlNTgzNC01ZGQ3LTYwYzQtMDhjZi00YmQ5NWNmNDYxYTImaW5zaWQ9NTE5Ng&ptn=3&ver=2&hsh=3&fclid=1b3e5834-5dd7-60c4-08cf-4bd95cf461a2&psq=facebook+login&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2xvZ2luLnBocC8&ntb=1"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://mw.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+  
+    <div class="footer-bottom">
+        <p id="foo">2024 © Gonje's Desk. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+        </ul>
+    </div>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
